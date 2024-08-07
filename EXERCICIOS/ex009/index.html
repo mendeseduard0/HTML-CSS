@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Martz90-Hex-Html-5.512.png" type="image/x-icon">
+    <title>Midias em html</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir este site em varios dispositivos diferentes ou simplesmente aumente e reduza o tamanho da sua tela</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="foto grande">
+    </picture>
+    <h1>Reproduzir audio</h1>
+    <p>Vamos aprender a Reproduzir audio no html5</p>
+    <audio src="midias/Jaden-Roses.mp3" controls autoplay></audio>
+    <p>Outro geito de Reproduzir</p>
+    <audio>
+        <source src="midias/Jaden-Cabin Fever.mp3">
+        <source src="midias/Jaden-Roses.mp3" type="audio/mpeg">
+        <a href="midias/Jaden-Roses.mp3">Clica aqui para baixar o audio</a>
+    </audio>
+    
+</body>
+</html>
